@@ -1,2 +1,2 @@
 # TemplateRepo
-Use this repos as a template when creating a new repo for a package
+Use this repo as a template when creating a new repo for a package
