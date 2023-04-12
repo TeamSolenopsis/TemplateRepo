@@ -41,7 +41,8 @@ Build the image
 Push the image to the solenopsis repository
 
 ```bash
-  docker tag solenopsis:tagname cazypandabier/solenopsis:tagname
+  docker tag solenopsis:tagname crazypandabier/solenopsis:tagname
+  docker login
   docker push crazypandabier/solenopsis:tagname
 ```
 ## Develop
@@ -64,7 +65,7 @@ pull the image from docker.io
 * Open VS Code
 * Click open the docker extension
 * In the images tab search for the pulled image.
-* Right click on the image and run the image a container will start.
+* Right click on the image and click run interactive, container will start.
 * Right click on the container in the containers tab
 * Click on attach vs code
 
