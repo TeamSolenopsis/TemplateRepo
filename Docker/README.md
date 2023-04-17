@@ -13,7 +13,7 @@ Docker setup
 [ROS GUI Docker](http://wiki.ros.org/docker/Tutorials/GUI)\
 [Docker tutorial](https://docker-curriculum.com/#docker-images)\
 [Docker repository](https://hub.docker.com/r/crazypandabier/solenopsis)\
-[NetworkChuck VS Code](https://youtu.be/1ZfO149BJvg)
+[NetworkChuck VS Code](https://youtu.be/1ZfO149BJvg)\
 [Dev containers](https://code.visualstudio.com/docs/devcontainers/attach-container)
 
 
