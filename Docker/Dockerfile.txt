@@ -11,6 +11,7 @@ RUN apt-get update && apt-get install -y \
     
 RUN pip install sphinx sphinx-rtd-theme 
 RUN pip install -U pytest
+RUN pip install pytest-flake8
     
 # Clone your ROS2 package from GitHub
 RUN mkdir -p /ros_ws/src
