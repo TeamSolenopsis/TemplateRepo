@@ -6,7 +6,9 @@ RUN apt-get update && apt-get install -y \
     git \
     build-essential \
     python3-colcon-common-extensions
-
+    
+RUN pip install sphinx sphinx-rtd-theme
+    
 # Clone your ROS2 package from GitHub
 RUN mkdir -p /ros_ws/src
 WORKDIR /ros_ws/src
