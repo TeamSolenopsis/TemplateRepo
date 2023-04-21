@@ -6,7 +6,8 @@ RUN apt-get update && apt-get install -y \
     git \
     build-essential \
     python3-colcon-common-extensions \
-    default-jdk
+    default-jdk \
+    graphviz
     
 RUN pip install sphinx sphinx-rtd-theme 
 RUN pip install -U pytest
